@@ -1,4 +1,5 @@
 # 🧠 Corrective RAG Agent with LangGraph, Tavily, and Vectorstore
+![corrective RAG image](https://github.com/user-attachments/assets/7394064f-2f5a-40c7-b6ed-a6f38799cf43)
 
 This project implements a **Corrective Retrieval-Augmented Generation (RAG) pipeline** using [LangGraph](https://github.com/langchain-ai/langgraph), [Tavily Search](https://www.tavily.com/), and LangChain's built-in vectorstore system (Chroma). The agent intelligently routes questions through a Retriever or Web Crawler and generates final answers using LLMs.
 
@@ -21,3 +22,5 @@ Install dependencies using `pip`:
 
 ```bash
 pip install langgraph langchain langchain-openai langchainhub langchain-community tavily
+
+
